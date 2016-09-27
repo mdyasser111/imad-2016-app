@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: pink;
-    margin-top: 74px;
+    background-color: violet;
+    margin-top: 100px;
 }
 
 .center {
@@ -9,7 +9,7 @@ body {
 }
 
 .text-big {
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .bold {
