@@ -1,6 +1,6 @@
 body {
-    font-family: sans-serif;
-    background-color: pink;
+    font-family: italic;
+    background-color: lightgrey;
     margin-top: 75px;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .text-big {
-    font-size: 200%;
+    font-size: 190%;
 }
 
 .bold {
