@@ -1,6 +1,6 @@
 body {
-    font-family: italic;
-    background-color: lightgrey;
+    font-family: sans-serif;
+    background-color: white;
     margin-top: 75px;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .text-big {
-    font-size: 190%;
+    font-size: 300%;
 }
 
 .bold {
