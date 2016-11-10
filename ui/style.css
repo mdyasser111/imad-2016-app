@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-.text-medium {
+.text-large {
     font-size: 300%;
 }
 
@@ -16,7 +16,7 @@ body {
     font-weight: bold;
 }
 
-.img-medium {
+.img-large {
     height: 200px;
 }
 
