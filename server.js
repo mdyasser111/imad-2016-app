@@ -20,7 +20,7 @@ app.use(bodyparser.json());
 
 app.use(session((
     secret : 'someRandomSecret value',
-    cookie : {manAge : 200*60*60*24*34}
+    cookie : {manAge : 2000*60*60*24*34}
     }));
  function create Template(data){
      var title = data.title;
