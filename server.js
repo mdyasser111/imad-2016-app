@@ -22,12 +22,68 @@ app.use(session((
     secret : 'someRandomSecret value',
     cookie : {manAge : 200*60*60*24*34}
     }));
-    
-    
-
+ function create Template(data){
+     var title = data.title;
+     var date = data.date;
+     var heading = data.heading;
+     var content = data.content;
+     
+     var html tamplate
+     <html>
+          <head>
+                <title>
+                       $(title)
+                </title>
+                <metaname ="viewport" content ="width"-device-width,Intial-scale-I"/>
+                <link href ="/ui/style.css" rel ="stylesheet"/>
+         </head>
+   <body>
+         <div class = "container">
+         <div>
+              <a href = "1",     </div>
+         </div>
+         <hr/>
+         <h3>
+             ${heading}
+         </h3>
+         <div>
+             ${date}
+         </div>
+         <div>
+             ${contact}
+         </div>
+    </body>
+</html>
+;
+return html template;
+        
+ }
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
+
+function hash(input,salt){
+    //how do we create a hash?
+    var hashed
+    return
+}
+
+
+app.get('/hash/input', function (req, res) {
+    
+    
+    
+    
+}
+app.get('/create-user', function (req, res) {
+   //username,password
+   //"username": "yasser" , "password" : password
+   //json
+   var username = req.body.username;
+   var password = req.body.password;
+   var salt = crypto
+   
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
