@@ -32,6 +32,12 @@ function loadCommentForm () {
           }
         };
         
+    
+        
+        
+        
+        
+        
         // Make the request
         var comment = document.getElementById('comment_text').value;
         request.open('POST', '/submit-comment/' + currentArticleTitle, true);
@@ -52,6 +58,10 @@ function loadLogin () {
             }
         }
     };
+     
+    
+    
+    
     
     request.open('GET', '/check-login', true);
     request.send(null);
