@@ -31,14 +31,7 @@ function loadCommentForm () {
                 submit.value = 'Submit';
           }
         };
-        
-    
-        
-        
-        
-        
-        
-        // Make the request
+            // Make the request
         var comment = document.getElementById('comment_text').value;
         request.open('POST', '/submit-comment/' + currentArticleTitle, true);
         request.setRequestHeader('Content-Type', 'application/json');
